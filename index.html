@@ -1,0 +1,78 @@
+
+<html>
+<head>
+<title>Weather Map Symbols Bingo Caller</title>
+</head>
+<style>
+body {
+    font-size: 100%; /* start with a flexible baseline, more on this in the next section */
+}
+ 
+h1 {
+    font-size: 2.5em;
+}
+ 
+@media screen and (max-width: 50em) {
+    h1 {
+        font-size:2em;
+    }
+}
+ 
+@media screen and (max-width: 40em) {
+    h1 {
+        font-size:1.5em;
+    }
+}
+ 
+@media screen and (max-width: 30em) {
+    h1 {
+        font-size:1.2em;
+    }
+}
+
+p {
+    font-size: 1.25em; /* 1.25em relative to a 16px baseline on the body will result in a 20px font size */
+}
+
+@media screen and (max-width: 40em) {
+    p {
+        font-size:90%;
+    }
+}
+ 
+@media screen and (max-width: 30em) {
+    p {
+        font-size:80%;
+    }
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+}
+</style>
+<script>
+function GetLetter()
+{
+    var myarray= new Array("B","I","N","G", "O");
+    var random = myarray[Math.floor(Math.random() * myarray.length)];
+   document.getElementById("letter").innerHTML=random;
+}
+function GetSymbol()
+{
+    var myarray= new Array("13-17 knots","8-12 knots","3-7 knots","warm front","cold front","occluded front","stationary front","no cover","2-3/10 cover","5/10 cover","completely overcast","cumulus of fair weather","thin altostratus in patches","thin altostratus layer","altocumulus congestus","overcast cirrostratus","altocumulus semi-transparent","cirrus","pressure rising","pressure falling","thunderstorm","cumulonimbus with anvil"," rain","snow","drizzle"
+);
+    var random = myarray[Math.floor(Math.random() * myarray.length)];
+   document.getElementById("symbol").innerHTML=random;
+}
+</script>
+<body>
+<center>
+<h1>Weather Map Symbols Bingo Caller</h1>
+<p id="letter" >Letter</p>
+<p id="symbol" >Symbol</p>
+<input type="button" id="btnSymbol" value="Draw" onclick="GetSymbol(), GetLetter();" />
+<div id="footer">&#169;Nicholas Porter - Creative Commons Attribution-NonCommercial 4.0 International</div>
+</center>
+</body>
+</html>
