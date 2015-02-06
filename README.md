@@ -1,17 +1,18 @@
-#WEATHER MAP SYMBOLS BINGO
-##by Nicholas Porter
+#weather-map-symbols-bingo
+###by Nicholas Porter
 [http://www.porternick.com](http://www.porternick.com)
+
 [http://www.teacherspayteachers.com/Store/Middle-School-Earth-Science](http://www.teacherspayteachers.com/Store/Middle-School-Earth-Science)
 
 
-##Before Class:
+###Before Class:
 1. Print one copy of the 'Weather Map Symbols BINGO Cards' (35 pages).
 2. Print enough copies of 'Weather Map Symbols BINGO Key' so that 
    each pair of students can share one (1 page).
 3. Print one copy of 'Weather Map Symbols BINGO Recorder' (1 page).
 4. Laminate and cut out all printed material.
 
-##During Class:
+###During Class:
 0. The first time you use this game, pass out one index card to each 
    student and ask them to cut in into 25 squares. These are the 
    tokens students will use to cover the symbols on the bingo cards.
@@ -33,7 +34,7 @@
 7. A students wins when they have five symbols covered in a row, column,
    or diagonal and yells, "BINGO!"
 
-##Tips:
+###Tips:
 1. Ask the students to create a 'Free Space' by putting a token on the
    center most square.
 2. Allow more than one winner per round. Three winners per round seems
