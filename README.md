@@ -1,9 +1,6 @@
-#weather-map-symbols-bingo
+#Weather Map Symbols BINGO
 ###by Nicholas Porter
-[http://www.porternick.com](http://www.porternick.com)
-
 [http://www.teacherspayteachers.com/Store/Middle-School-Earth-Science](http://www.teacherspayteachers.com/Store/Middle-School-Earth-Science)
-
 
 ###Before Class:
 1. Print one copy of the 'Weather Map Symbols BINGO Cards' (35 pages).
