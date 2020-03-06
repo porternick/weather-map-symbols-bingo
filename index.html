@@ -7,23 +7,23 @@
 body {
     font-size: 100%; /* start with a flexible baseline, more on this in the next section */
 }
- 
+
 h1 {
     font-size: 2.5em;
 }
- 
+
 @media screen and (max-width: 50em) {
     h1 {
         font-size:2em;
     }
 }
- 
+
 @media screen and (max-width: 40em) {
     h1 {
         font-size:1.5em;
     }
 }
- 
+
 @media screen and (max-width: 30em) {
     h1 {
         font-size:1.2em;
@@ -39,7 +39,7 @@ p {
         font-size:90%;
     }
 }
- 
+
 @media screen and (max-width: 30em) {
     p {
         font-size:80%;
@@ -60,7 +60,7 @@ function GetLetter()
 }
 function GetSymbol()
 {
-    var myarray= new Array("13-17 knots","8-12 knots","3-7 knots","warm front","cold front","occluded front","stationary front","no cover","2-3/10 cover","5/10 cover","completely overcast","cumulus of fair weather","thin altostratus in patches","thin altostratus layer","altocumulus congestus","overcast cirrostratus","altocumulus semi-transparent","cirrus","pressure rising","pressure falling","thunderstorm","cumulonimbus with anvil"," rain","snow","drizzle"
+    var myarray= new Array("15 knots","10 knots","5 knots","warm front","cold front","occluded front","stationary front","no cloud cover","2/8th cloud cover","4/8th cloud cover","8/8th cloud","cumulus","altocumulus standing lenticulars","altostratus","altocumulus congestus","overcast cirrostratus","altocumulus semi-transparent","cirrus","pressure rising","pressure falling","thunderstorm","cumulonimbus with anvil"," rain","snow","drizzle"
 );
     var random = myarray[Math.floor(Math.random() * myarray.length)];
    document.getElementById("symbol").innerHTML=random;
@@ -72,7 +72,7 @@ function GetSymbol()
 <p id="letter" >Letter</p>
 <p id="symbol" >Symbol</p>
 <input type="button" id="btnSymbol" value="Draw" onclick="GetSymbol(), GetLetter();" />
-<div id="footer">&#169;Nicholas Porter, 2017 | <a href="http://tiny.cc/MSEarthScience">http://tiny.cc/MSEarthScience</a></div>
+<div id="footer">&#169;Nicholas Porter, 2020 | <a href="https://www.teacherspayteachers.com/Store/Middle-School-Earth-Science">https://www.teacherspayteachers.com/Store/Middle-School-Earth-Science</a></div>
 </center>
 </body>
 </html>
